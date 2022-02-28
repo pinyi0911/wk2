@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 const Header = () => {
   return (
       <View style={styles.headerStyle}>
-        <Text style={styles.textStyle}>EXO ALBUMS </Text>
+        <Text style={styles.textStyle}> EXO ALBUMS </Text>
       </View>
   );
 };
@@ -18,11 +18,10 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
-    // Android Only
-    elevation: 5
+    elevation: 6
   },
   textStyle: {
-    fontSize: 20,
+    fontSize: 16,
     fontWeight:"700",
     color:"#a1a1a1",
   },
